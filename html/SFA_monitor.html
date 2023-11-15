@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>顺丰航空飞行训练中心模拟机监测系统</title>
+    <style>
+        h2{font-size: 30px; background-color: rgb(214, 205, 205); color: blue; text-align: center;}
+        li:hover{color: yellowgreen; font-size: larger;}
+        iframe:hover{background-color: yellow;}
+    </style>
+</head>
+
+<body>
+    <h2>模拟机温湿度检测显示部分</h2>
+    <ul>
+        <!-- 
+        <li><a href="http://10.88.162.32/temp" target="myframe1">节点1温度</a></li>         开关式BOOT
+        <li><a href="http://10.88.162.32/humidity" target="myframe2">节点1湿度</a></li>
+        <li><a href="http://10.88.162.80/temp" target="myframe3">节点2温度</a></li>         倒放DHT22 LED无RST
+        <li><a href="http://10.88.162.80/humidity" target="myframe4">节点2湿度</a></li>
+        <li><a href="http://10.88.162.135/temp" target="myframe5">节点3温度</a></li>        
+        <li><a href="http://10.88.162.135/humidity" target="myframe6">节点3湿度</a></li> 
+        -->
+    </ul>
+    
+    <li>B757#1</li>
+    <iframe src="http://10.88.162.32/temp" name="myframe1" frameborder="0" width="150" height="50"></iframe>
+    <iframe src="http://10.88.162.32/humidity" name="myframe2" frameborder="0" width="150" height="50"></iframe>    <br/>
+    <li>B757#2</li>
+    <iframe src="http://10.88.162.80/temp" name="myframe3" frameborder="0" width="150" height="50"></iframe>
+    <iframe src="http://10.88.162.80/humidity" name="myframe4" frameborder="0" width="150" height="50"></iframe>    <br/>
+    <li>B757#3</li>
+    <iframe src="http://10.88.162.135/temp" name="myframe5" frameborder="0" width="150" height="50"></iframe>
+    <iframe src="http://10.88.162.135/humidity" name="myframe6" frameborder="0" width="150" height="50"></iframe>
+
+    <h2>机房温湿度监测</h2>
+    <ul>hahaha</ul>
+    <h2>液压机油温</h2>
+    <li>B757#1</li>
+    <iframe src="http://10.88.162.32/temp"name="myframe7" frameborder="0" width="150" height="50"></iframe>
+    <li>B757#2</li>
+    <iframe src=""name="myframe8" frameborder="0" width="150" height="50"></iframe>
+</body>
+</html>

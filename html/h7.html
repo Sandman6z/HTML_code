@@ -1,0 +1,32 @@
+<h1>form input select</h1>
+
+<form action="a.html" method="post">
+    <input type="hidden" name="id" value="100"/>
+    姓名：<input type="text" disabled name="uname" maxlength="8" size="10" value=""/>
+    密码：<input type="password" name="upass" />    <br/><br/>
+    性别：<input type="radio" name="sex" value="1"/>male
+            <input type="radio" checked name="sex" value="0" />female<br/><br/>
+    爱好：<input type="checkbox" name="likes" value="1"/>read<br/><br/>
+            <input type="checkbox" checked name="likes" value="2"/>climb<br/><br/>
+            <input type="checkbox" name="likes" value="3"/>swim<br/><br/>
+            <input type="checkbox" checked name="likes" value="4"/>sing<br/><br/>
+    头像：<input type="file" name="pic"/><br/><br/>
+    邮箱：<input type="email" placeholder="input your email" name="pic" /><br/><br/>
+    年龄：<input type="number" min="18" max="80" name="pic"/><br/><br/>
+    指数：<input type="range" min="18" max="80" name="pic" /><br/><br/>
+    网址：<input type="url" value="https://www.baidu.com" readonly name="pic"/><br/><br/>
+    日期：<input type="date"  name="pic"/><br/><br/>
+    颜色：<input type="color"  name="pic"/><br/><br/>
+    学历：<select name="education" id="">
+        <option value="1">大专</option>
+        <option value="2" selected>本科</option>
+        <option value="3">硕士</option>
+        <option value="4">研究生</option>
+        <option value="5">博士</option>
+    </select><br/><br/>
+    简介：<textarea name="contents" cols="10" rows="10">Hello World!</textarea>
+            <br/><br/>
+            <input type="submit" value="提交">
+            <input type="reset" value="重置">
+            <input type="image" src="./images/reg.gif">
+</form>
